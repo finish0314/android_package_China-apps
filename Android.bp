@@ -1,0 +1,8 @@
+android_app_import {
+    apk: "Chrome.apk",
+    owner: "gms",
+    name: "Chrome",
+    certificate: "platform",
+    privileged: false,
+    product_specific: true,
+}
