@@ -2,7 +2,7 @@ android_app_import {
     apk: "Chrome.apk",
     owner: "gms",
     name: "Chrome",
-    certificate: "platform",
+    certificate: "releasekey",
     privileged: false,
     product_specific: true,
 }
@@ -10,7 +10,7 @@ android_app_import {
     apk: "GoogleCam.apk",
     owner: "gms",
     name: "GoogleCam",
-    certificate: "testkey",
+    certificate: "releasekey",
     enforce_uses_libs: false,
     dex_preopt: {
           enabled: false,
@@ -21,7 +21,7 @@ android_app_import {
     apk: "miuiweather.apk",
     owner: "xiaomi",
     name: "MiuiWeather2",
-    certificate: "testkey",
+    certificate: "releasekey",
     enforce_uses_libs: false,
     dex_preopt: {
           enabled: false,
@@ -32,7 +32,7 @@ android_app_import {
     apk: "miuixiangce.apk",
     owner: "gms",
     name: "miuiphotos",
-    certificate: "testkey",
+    certificate: "releasekey",
     enforce_uses_libs: false,
     dex_preopt: {
           enabled: false,
