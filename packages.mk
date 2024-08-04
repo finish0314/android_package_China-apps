@@ -4,3 +4,4 @@ PRODUCT_PACKAGES += \
    MiuiWeather2 \
    miuiphotos
 
+PRODUCT_SOONG_NAMESPACES += packages/apps/China-apps
