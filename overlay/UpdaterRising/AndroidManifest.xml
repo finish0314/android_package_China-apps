@@ -1,0 +1,11 @@
+<!--
+     Copyright (C) 2024 The LineageOS Project
+     Added by finish0314
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.overlay.UpdaterRising">
+    <overlay android:targetPackage="com.rising.updater"
+                   android:isStatic="true"
+                   android:priority="600"/>
+</manifest>

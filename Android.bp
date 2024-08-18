@@ -5,7 +5,7 @@ android_app_import {
     preprocessed: true,
     presigned: true,
     dex_preopt: {
-            enabled: false,
+            enabled: true,
     },
     product_specific: true,
 }
@@ -16,7 +16,7 @@ android_app_import {
     certificate: "releasekey",
     enforce_uses_libs: false,
     dex_preopt: {
-          enabled: false,
+          enabled: true,
     },
     product_specific: true,
 }
@@ -27,7 +27,7 @@ android_app_import {
     certificate: "releasekey",
     enforce_uses_libs: false,
     dex_preopt: {
-          enabled: false,
+          enabled: true,
     },
     product_specific: true,
 }
@@ -38,7 +38,7 @@ android_app_import {
     certificate: "releasekey",
     enforce_uses_libs: false,
     dex_preopt: {
-          enabled: false,
+          enabled: true,
     },
     product_specific: true,
 }

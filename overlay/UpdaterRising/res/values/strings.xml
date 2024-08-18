@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The LineageOS Project
+     Added by finish0314
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--
+        Optional placeholders replaced at runtime:
+          {device} - Device name
+    -->
+    <!--
+        Instead server url 
+    --> 
+    <string name="updater_server_url_gapps" translatable="false">https://ota.cyuit.cn/ota/rising/GAPPS_{device}.json</string>
+    <string name="updater_server_url_core" translatable="false">https://ota.cyuit.cn/ota/rising/CORE_{device}.json</string>
+    <string name="updater_server_url_vanilla" translatable="false">https://ota.cyuit.cn/ota/rising/VANILLA_{device}.json</string>
+
+</resources>
