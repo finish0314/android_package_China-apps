@@ -24,7 +24,7 @@ android_app_import {
     apk: "miuiweather.apk",
     owner: "xiaomi",
     name: "MiuiWeather2",
-    certificate: "releasekey",
+    certificate: "testkey",
     enforce_uses_libs: false,
     dex_preopt: {
           enabled: true,

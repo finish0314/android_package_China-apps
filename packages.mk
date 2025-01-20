@@ -1,8 +1,5 @@
 PRODUCT_PACKAGES += \
    Chrome \
-   GoogleCam \
-   MiuiWeather2 \
-   miuiphotos \
-   UpdaterRising
+   MiuiWeather2
 
-PRODUCT_SOONG_NAMESPACES += packages/apps/China-apps
+PRODUCT_SOONG_NAMESPACES += vendor/xiaomi/addions
